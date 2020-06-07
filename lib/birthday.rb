@@ -10,8 +10,8 @@ def happy_birthday(birthday_kids)
   end
 end
 
-def age_apprpriate_birthday(apprpriate_birthday)
-  apprpriate_birthday.each do |name, age|
+def age_appropriate_birthday(appropriate_birthday)
+  appropriate_birthday.each do |name, age|
     if age < 12
       puts "Happy Birthday #{name} you are #{age} years old"
     end
